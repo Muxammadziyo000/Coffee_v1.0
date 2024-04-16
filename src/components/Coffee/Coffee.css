@@ -1,0 +1,77 @@
+.wrapper_coffee{
+    font-family: "Playfair Display", serif;
+   
+    .discover{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        .discover_info{
+            margin-top: 50px;
+            width: 590px;
+            h1{
+                font-size: 54px;
+                font-weight: 700;
+                color: #603809;
+            }
+            p{
+                color: #603809;
+                margin-top: 30px;
+                line-height: 34px;
+                font-size: 20px;
+            }
+            button{
+                font-weight: 700;
+                margin-top: 20px;
+                border: none;
+                padding: 15px 30px ;
+                border-radius: 25px;
+                background: #F9C06A;
+            }
+        }
+    }
+    .cups_coffe{
+        h1{
+            font-size: 54px;
+            font-weight: 700;
+            color: #603809;
+            text-align: center;
+
+        }
+        .cups_info_p{
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #603809;
+            text-align: center;
+        }
+        .cup_wrapper{
+            margin-top: 35px;
+            margin-left: 60px;
+            display: flex;
+        }
+        .menu_cup{
+            height: 360px;
+            background-color:#f9c06a39  ;
+            margin-left: 40px;
+            text-align: center;
+            h4{
+                margin-top: 10px;
+                font-size: 22px;
+                font-weight: 700;
+            }
+            p{
+                margin-top: 10px;
+                font-size: 16px;
+                font-weight: 400px;
+            }
+            button{
+                font-weight: 700;
+                margin-top: 10px;
+                border: none;
+                padding: 15px 30px ;
+                border-radius: 25px;
+                background: #F9C06A;
+            }
+        }
+    }
+}

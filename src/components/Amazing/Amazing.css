@@ -1,0 +1,45 @@
+.amazing_wrapper{
+    font-family: "Playfair Display", serif;
+    width: 1400px;
+    height: 574px;
+    background-image: url(./images/Group_36.png);
+    display: flex;
+    .amazing_content{
+        .amazing_text{
+            width: 575px;
+            margin: 100px;
+            h1{
+                color: white;
+                font-size: 54px;
+                font-weight: 700;
+            }
+            p{
+                margin-top: 20px;
+                color: white;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 34px
+            }
+            button{
+                font-weight: 700;
+                border: none;
+                padding: 15px 30px ;
+                border-radius: 25px;
+                background: #F9C06A;
+                margin-top: 20px;
+            }
+        }
+    }
+        .amazing_images{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 100px;
+            height: 575px;
+            width: 658px;
+
+            background-image: url(./images/coffee_bean.png);
+            background-repeat: no-repeat;
+           
+        }
+}

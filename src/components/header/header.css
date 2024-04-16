@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper_header{
+    font-family: "Playfair Display", serif;
+    width: 1400px;
+    height: 800px;
+    background-image: url(./images/coffee_image.png);
+    background-repeat: no-repeat;
+    
+   
+}
+.container{
+    margin: 0 auto;
+    width: 1400px;
+}
+.header{
+    img{
+        margin-top: 30px;
+        width: 155px;
+        height: 36px;
+    }
+    height: 100px;
+    width: 1366px;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: space-around;
+    .pages{
+        margin-top: 30px;
+        a{
+            
+            color: rgb(255, 255, 255);
+            margin-left: 45px;
+        }
+    }
+    .sign{
+        margin-top: 30px;
+        a{
+            color: rgb(255, 255, 255);
+            margin-right: 30px;
+        }
+        button{
+            font-weight: 700;
+            border: none;
+            padding: 15px 30px ;
+            border-radius: 25px;
+            background: #F9C06A;
+
+        }
+    }
+}
+a{
+    text-decoration: none;
+}
+.header_hero{
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    width: 527px;
+    margin-left: 100px;
+    margin-top: 100px;
+    h1{
+        font-size: 22px;
+        color: white;
+        margin-bottom: 50px;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        line-height: 34px;
+
+    }
+    button{
+        font-weight: 700;
+        margin-top: 20px;
+        border: none;
+        padding: 15px 30px ;
+        border-radius: 25px;
+        background: #F9C06A;
+    }
+}

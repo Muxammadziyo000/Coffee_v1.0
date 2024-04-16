@@ -1,0 +1,75 @@
+.antique_wrapper{
+    height: 612px;
+    width: 1200px;
+  
+    .antique_content{
+        margin-top: 100px;
+        h1{
+            color: #603809;
+            text-align: center;
+            font-size: 54px;
+            font-weight: 700;
+            margin: 10px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .cart_antique{
+            display: flex;
+            margin-left: 130px;
+            margin-top: 40px;
+            .cart_antique_cart{
+                padding: 30px;
+                margin-left: 20px;
+                background-color: #FFEED8;
+                width: 280px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img{
+                    margin-bottom: 20px;
+                }
+                h4{
+                    margin: 5px;
+                    color: #603809;
+                    font-size: 28px;
+                    font-weight: 700;
+                }
+                p{
+                    margin: 5px;
+                    color: #603809;
+                    font-size: 20px;
+                    font-weight: 400; 
+                }
+
+            }
+        }
+        .botttom_p{
+            color: #603809;
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+        h3{
+            margin-top: 15px;
+            text-align: center;
+            color: #603809;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        button{
+            
+            margin-left: 650px;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 20px;
+            border: none;
+            padding: 15px 30px ;
+            border-radius: 25px;
+            background: #F9C06A;
+        }
+    }
+}
